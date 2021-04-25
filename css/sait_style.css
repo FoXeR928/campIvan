@@ -1,0 +1,53 @@
+/* Стиль для главной страницы */
+.section-greeting__p-text{
+    padding: 200px 0px 200px 600px;
+    background: url(../img/lager354-1280x1009-1.jpg) 0 -15px;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.section-about{
+    display: flex;
+    justify-content: space-around;
+}
+.article-about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+.article-about__img{
+    width: 90px;
+    height: 90px;
+}
+.article-about__p{
+    text-align: center;
+}
+.programms-conteiner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.article-programms__p{
+    text-align: center;
+}
+.article-programms__img{
+    border-radius: 20px;
+}
+.-app{
+    margin-bottom: 7px;
+}
+.article-price{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.article-price__span{
+    color: #FF7400;
+    font-size: 25px;
+}
+.form-send{
+    margin: 0 300px;
+    display: flex;
+    flex-direction: column;
+}

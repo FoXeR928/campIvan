@@ -1,0 +1,25 @@
+/* Стиль для страницы с описанием лагеря */
+.section-about{
+    display: flex;
+    flex-direction: column;
+}
+.article-comments{
+    margin: 20px 0;
+}
+.article-comments__img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+.form-send{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.form-send__textarea{
+    margin-top: 0px;
+}
+.form-send__button{
+    width: 300px;
+    margin: auto;
+}

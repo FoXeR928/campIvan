@@ -1,0 +1,17 @@
+/* Стиль для страницы со сменами */
+.article-price{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.article-price__span{
+    color: #FF7400;
+    font-size: 25px;
+}
+.form-send{
+    margin: 0 300px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
